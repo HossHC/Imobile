@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imobiliária Hoss</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Imobiliária Hoss</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#properties">Imóveis</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2 style="color: #00509e;">Encontre o imóvel dos seus sonhos</h2>
+<p style="color: #00509e;">Casas, apartamentos, e mais!</p>
+            <button onclick="scrollToSection('properties')">Ver Imóveis</button>
+        </div>
+    </section>
+
+    <section id="properties" class="properties">
+        <div class="container">
+            <h2>Imóveis Disponíveis</h2>
+            <div class="property-list">
+                
+                <div class="property-card">
+                    <img src="decorar-apartamento-de-luxo.jpg" alt="Imagem do imóvel 1">
+                    <div class="property-info">
+                        <h3>Apartamento Luxuoso</h3>
+                        <p>3 Quartos, 2 Banheiros, 120m²</p>
+                        <span>R$ 1.200.000</span>
+                    </div>
+                </div>
+                
+                <div class="property-card">
+                    <img src="Casa-com-piscina.jpg" alt="Imagem do imóvel 2">
+                    <div class="property-info">
+                        <h3>Casa com Piscina</h3>
+                        <p>4 Quartos, 3 Banheiros, 250m²</p>
+                        <span>R$ 1.800.000</span>
+                    </div>
+                </div>
+               
+                <div class="property-card">
+                    <img src="images (10).jpeg" alt="Imagem do imóvel 3">
+                    <div class="property-info">
+                        <h3>Studio Moderno</h3>
+                        <p>1 Quarto, 1 Banheiro, 45m²</p>
+                        <span>R$ 600.000</span>
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>A Imobiliária Hoss tem mais de 10 anos de experiência no mercado, oferecendo os melhores imóveis para você.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <form id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Imobiliária Hoss. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
